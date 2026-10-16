@@ -366,3 +366,50 @@ body{
     line-height: 1.3;
     margin-bottom: 32px;
 }
+
+
+.method-free {
+    width: 100%;
+    min-height: 620px;
+    background-color: #e9e9e9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 100px 7%;
+    gap: 5%;
+}
+
+.method-contenido {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.method-contenido h2 {
+    color: black;
+    font-size: 48px;
+    line-height: 1.05;
+    margin-bottom: 18px;
+}
+
+.method-contenido p {
+    width: 100%;
+    max-width: 360px;
+    color: black;
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 35px;
+}
+.method-imagen {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.method-imagen img {
+    width: 100%;
+    height: auto;
+}
