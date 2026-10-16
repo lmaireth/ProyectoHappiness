@@ -558,3 +558,81 @@ body{
 .contact .btn-negro {
     margin-top: 28px;
 }
+
+
+.footer {
+    width: 100%;
+    min-height: 400px;
+    background-color: black;
+    color: #ffd000;
+    padding: 35px 4% 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    margin-bottom: 85px;
+}
+
+.footer-logo img {
+    width: 85px;
+    height: auto;
+}
+
+.footer-enlaces {
+    display: flex;
+    gap: 35px;
+}
+
+.footer-enlaces ul {
+    list-style: none;
+}
+
+.footer-enlaces a {
+    color: #ffd000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.footer-enlaces a:hover {
+    color: white;
+}
+
+.footer-inferior {
+    width: 100%;
+    border-top: 1px solid #aaa;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-inferior p {
+    color: #ffd000;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 18px;
+}
+
+.footer-redes a {
+    color: #ffd000;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.footer-redes a:hover {
+    color: white;
+}
