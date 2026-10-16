@@ -636,3 +636,513 @@ body{
 .footer-redes a:hover {
     color: white;
 }
+
+
+@media (max-width: 1279px) {
+
+    .hero1 {
+        padding-inline: 50px;
+    }
+
+    .hero2 {
+        padding: 7% 5%;
+    }
+
+    .hero2 h1 {
+        font-size: 50px;
+    }
+
+    .contenido {
+        padding: 30px;
+    }
+
+    .text h2 {
+        font-size: 32px;
+    }
+
+    .help-text h2 {
+        font-size: 45px;
+    }
+
+    .porcentaje-content {
+        padding: 35px 25px;
+    }
+
+    .porcentaje-content h2 {
+        font-size: 40px;
+    }
+
+    .newsletter {
+        gap: 4%;
+        padding: 50px 5%;
+    }
+
+    .newsletter-form {
+        padding: 25px;
+    }
+
+}
+
+@media (max-width: 920px) {
+
+    .menu {
+        gap: 20px;
+    }
+
+    .menu ul strong {
+        gap: 15px;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .hero1 {
+        padding: 70px 30px;
+    }
+
+    .hero2 {
+        height: auto;
+        padding: 60px 30px;
+    }
+
+    .hero2 h1 {
+        font-size: 38px;
+    }
+
+    .hero2 p {
+        font-size: 15px;
+    }
+
+    .contenido {
+        width: 92%;
+        padding: 25px;
+    }
+
+    .imagenes2 {
+        gap: 10px;
+    }
+
+    .imagenes2 img {
+        width: 40%;
+        height: auto;
+    }
+
+    .happiness {
+        width: 100%;
+        min-height: auto;
+        padding: 30px 0;
+    }
+
+    .text p {
+        width: 100%;
+    }
+
+    .help {
+        height: 650px;
+        padding: 180px 5% 40px;
+    }
+
+    .help-text h2 {
+        font-size: 35px;
+    }
+
+    .help-text p {
+        width: 85%;
+    }
+
+    .porcentaje {
+        width: 92%;
+        height: auto;
+    }
+
+    .porcentaje-content h2 {
+        font-size: 32px;
+    }
+
+    .porcentaje-content p {
+        width: 100%;
+    }
+
+    .porcentaje-graph img {
+        width: 170px;
+    }
+
+    .our-team {
+        min-height: auto;
+        padding: 45px 5%;
+    }
+
+    .our-team-imagen img {
+        height: auto;
+    }
+
+    .our-team-contenido p {
+        width: 100%;
+    }
+
+    .method-free {
+        min-height: auto;
+        padding: 70px 5%;
+    }
+
+    .method-contenido h2 {
+        font-size: 36px;
+    }
+
+    .newsletter {
+        height: auto;
+        gap: 30px;
+        padding: 50px 5%;
+    }
+
+    .newsletter-form {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .newsletter-contenido {
+        width: 45%;
+    }
+
+    .newsletter-contenido h2 {
+        font-size: 32px;
+    }
+
+    .contact {
+        height: auto;
+        padding: 50px 7%;
+    }
+
+    .contact-mapa img {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu img {
+        width: 90px;
+    }
+
+    .menu ul strong {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero1,
+    .hero2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero1 {
+        padding: 35px 8%;
+    }
+
+    .hero2 {
+        padding: 30px 8%;
+    }
+
+    .hero2 h1 {
+        font-size: 40px;
+    }
+
+    .happiness {
+        min-height: auto;
+        padding: 30px 0;
+    }
+
+    .contenido {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text p {
+        width: 100%;
+    }
+
+    .imagenes2 {
+        gap: 15px;
+    }
+
+    .imagenes2 img {
+        width: 45%;
+    }
+
+    .help {
+        height: 650px;
+        margin-top: 0;
+        padding: 60px 8%;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .help-text,
+    .help-imagen {
+        width: 100%;
+    }
+
+    .help-text p {
+        width: 100%;
+    }
+
+    .help-imagen img {
+        width: 80%;
+    }
+
+    .porcentaje {
+        width: 80%;
+        margin: 50px auto;
+        flex-direction: column-reverse;
+    }
+
+    .porcentaje-imagen,
+    .porcentaje-content {
+        width: 100%;
+    }
+
+    .porcentaje-imagen img {
+        height: auto;
+    }
+
+    .porcentaje-content {
+        padding: 35px;
+    }
+
+    .about-imagen {
+        width: 90%;
+    }
+
+    .our-team {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .our-team-imagen,
+    .our-team-contenido {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .our-team-imagen img {
+        width: 80%;
+        height: auto;
+    }
+
+    .method-free {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .method-contenido,
+    .method-imagen {
+        width: 100%;
+    }
+
+    .newsletter {
+        flex-direction: column-reverse;
+        align-items: stretch;
+        gap: 35px;
+    }
+
+    .newsletter-form,
+    .newsletter-contenido {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .newsletter-contenido p {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 40px 5%;
+    }
+
+    .contact-mapa {
+        width: 100%;
+    }
+
+    .contact-mapa img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        gap: 45px;
+    }
+
+    .footer-logo {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .menu {
+        padding: 15px 5px;
+    }
+
+    .menu ul strong {
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .hero1 {
+        padding: 25px 6%;
+    }
+
+    .hero2 {
+        padding: 30px 6%;
+    }
+
+    .hero2 h1 {
+        font-size: 32px;
+    }
+
+    .hero2 p {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+    }
+
+    .contenido {
+        padding: 25px 20px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+    .imagenes2 {
+        flex-direction: column;
+    }
+
+    .imagenes2 img {
+        width: 80%;
+    }
+
+    .help-text h2 {
+        font-size: 30px;
+    }
+
+    .help-imagen img {
+        width: 95%;
+    }
+
+    .porcentaje-content {
+        padding: 25px 20px;
+    }
+
+    .porcentaje-content h2 {
+        font-size: 30px;
+    }
+
+    .porcentaje-graph img {
+        width: 150px;
+    }
+
+    .about-imagen {
+        width: 100%;
+    }
+
+    .our-team-contenido h2 {
+        font-size: 32px;
+    }
+
+    .method-contenido h2 {
+        font-size: 30px;
+    }
+
+    .newsletter {
+        padding: 40px 6%;
+    }
+
+    .newsletter-form {
+        padding: 20px;
+    }
+
+    .form-nombres {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .newsletter-contenido h2 {
+        font-size: 30px;
+    }
+
+    .contact {
+        padding: 35px 5%;
+    }
+
+    .contact-contenido h2 {
+        font-size: 28px;
+    }
+
+    .contact-contenido p {
+        font-size: 14px;
+    }
+
+    .contact-mapa img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        min-height: 350px;
+        padding: 30px 5% 25px;
+    }
+
+    .footer-logo img {
+        width: 75px;
+    }
+
+    .footer-enlaces {
+        gap: 20px;
+    }
+
+    .footer-enlaces a {
+        font-size: 12px;
+    }
+
+    .footer-inferior {
+        gap: 15px;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .footer-inferior p {
+        font-size: 11px;
+    }
+
+    .footer-redes {
+        gap: 12px;
+    }
+
+    .footer-redes a {
+        font-size: 17px;
+    }
+
+}
