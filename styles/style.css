@@ -54,7 +54,6 @@ body{
     height: auto;
 }
 
-
 .hero2 {
     width: 50%;
     height: 550px;
@@ -81,12 +80,21 @@ body{
 
 .btn {
     padding: 15px 25px;
-    background-color: #ffd000;
-    color: black;
+    font-weight: bold;
     border: none;
     border-radius: 2px;
+    font-size: 13px;
 }
 
+.btn-amarillo {
+    background-color: #ffd000;
+    color: black;
+}
+
+.btn-negro {
+    background-color: black;
+    color: white;
+}
 
 .happiness {
     width: 100%;
@@ -185,15 +193,6 @@ body{
     margin-bottom: 30px;
 }
 
-.help-btn {
-    padding: 9px 17px;
-    background-color: black;
-    color: white;
-    border: none;
-    font-size: 12px;
-    cursor: pointer;
-}
-
 .help-imagen {
     width: 55%;
     
@@ -255,16 +254,6 @@ body{
     margin-bottom: 28px;
 }
 
-.porcentaje-btn {
-    width: 135px;
-    padding: 10px 15px;
-
-    background-color: black;
-    color: white;
-    border: none;
-    font-size: 14px;
-}
-
 .porcentaje-graph {
     width: 100%;
 
@@ -281,3 +270,54 @@ body{
     height: auto;
 }
 
+.about {
+    width: 100%;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 35px 20px 30px;
+}
+
+.about-contenido {
+    width: 100%;
+    max-width: 490px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.about-contenido h2 {
+    color: #ffd000;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.about-contenido p {
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.about-imagen {
+    width: 70%;
+    max-width: 700px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 28px;
+}
+
+.about-imagen img {
+    width: 100%;
+    height: auto;
+}
