@@ -38,7 +38,7 @@ body{
 
 .hero {
     width: 100%;
-    height: 550px;
+    height: 610px;
     display: flex;
 }
 
@@ -88,5 +88,65 @@ body{
 }
 
 
+.happiness {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contenido {
+    width: 88%;
+    min-height: 230px;
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 35px 65px;
+    box-shadow: 10px 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.text {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h2 {
+    color: #f2c900;
+    font-size: 38px;
+    line-height: 0.95;
+    margin-bottom: 15px;
+}
+
+.text p {
+    width: 85%;
+    color: black;
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.text strong {
+    font-size: 14px;
+}
+
+.imagenes {
+    width: 55%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.imagenes img {
+    width: 150px;
+    max-width: 45%;
+    height: auto;
+}
 
 
